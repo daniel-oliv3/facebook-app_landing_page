@@ -74,3 +74,47 @@ header ul li a.active {
     margin-right: 10px;
     font-size: 1.4em;
 }
+
+.contentBx {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contentBx .text h2 {
+    font-size: 6em;
+    color: #3b5998;
+}
+
+.contentBx .text p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.8em;
+}
+
+.contentBx .text h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #333;
+}
+
+.btn {
+    background: #3b5998;
+    color: #fff;
+    display: inline-flex;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    margin: 5px 20px 5px 0;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #2d88ff;
+}
+
+.btn ion-icon {
+    margin-right: 10px;
+    font-size: 1.4em;
+}
