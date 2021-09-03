@@ -6,3 +6,71 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+.main {
+    position: relative;
+    background: linear-gradient(120deg, #fff, #fff 62%, #3b5998 62%, #3b5998 100%);
+    min-height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 50px;
+    margin-right: 20px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    color: #2d88ff;
+}
+
+.app {
+    position: absolute;
+    right: 100px;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    color: #3b5998;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.app:hover {
+    background: #2d88ff;
+    color: #fff;
+}
+
+.app ion-icon {
+    margin-right: 10px;
+    font-size: 1.4em;
+}
